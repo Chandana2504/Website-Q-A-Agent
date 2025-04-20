@@ -1,0 +1,8 @@
+requests
+beautifulsoup4
+google-generativeai
+langchain
+langchain_google_genai
+faiss-cpu
+python-dotenv
+langchain-community
