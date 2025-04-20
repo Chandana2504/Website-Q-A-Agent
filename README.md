@@ -33,29 +33,19 @@ This is an AI-powered question-answering agent that can crawl help websites (e.g
 ## 📦 Installation
 
 ### 1. Clone the repository
-```bash
 git clone https://github.com/your-username/qa-agent.git
 cd qa-agent
 2. Create a virtual environment (Windows)
 cmd
-Copy
-Edit
 python -m venv venv
 venv\Scripts\activate
 3. Install dependencies
-bash
-Copy
-Edit
 pip install -r requirements.txt
 🔐 Add API Key
 Create a file named .env in the root folder and paste:
-
-ini
-Copy
-Edit
 GOOGLE_API_KEY=your_gemini_api_key_here
 🧪 Run the Agent
-bash
-Copy
-Edit
 python qa_agent.py --url https://help.zluri.com
+
+💡 Future Improvements
+Web-based UI (using Streamlit or Gradio)
